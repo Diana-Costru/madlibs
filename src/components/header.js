@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Header = () => {
+    return (
+        <div className="header">
+        <div className="header__skew"></div>
+        <div className="header_border"></div>
+        <h1>Bottega Madlibs</h1>
+        <p>
+        Fill out the fields bellow and click the generate button to see the Mad Lib story.
+        </p>
+        </div>
+    )
+}
+
+export default Header;
